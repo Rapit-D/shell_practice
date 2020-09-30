@@ -39,5 +39,5 @@ echo ${!CHAR_ARR[@]}
 echo -n "output array value from index 3: "
 echo ${CHAR_ARR[@]:3}
 
-echo -n "output array value from index 3 and following 2: "
+echo -n "output array 2 values from index 3 : "
 echo ${CHAR_ARR[@]:3:2}
