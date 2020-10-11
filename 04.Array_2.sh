@@ -41,3 +41,5 @@ do
     echo "$key ---> ${COLOR[$key]}"
 done
 # 
+COLOR["red"]="red"
+echo ${COLOR["red"]}
