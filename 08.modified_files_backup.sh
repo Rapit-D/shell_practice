@@ -12,7 +12,7 @@ DIR="/cache/$(date +%F )"
 if [ ! -d $DIR ]
 then
     mkdir -p $DIR
-    for f in `find / -mtime -1`
+    for f in `find / -mtime -1 -user ray`
     do
         cp $f $DIR
     done
